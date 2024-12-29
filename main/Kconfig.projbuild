@@ -1,0 +1,19 @@
+# put here your custom config value
+menu "WiFi connection"
+    config MODULE_WIFI_SSID
+        string "SSID"
+        default "WIFI_SSID"
+        
+    config MODULE_WIFI_PASSWORD
+        string "password"
+        default "WIFI_PWD"
+endmenu
+
+menu "StreamElements data"
+    config CHANNEL_ID
+        string "channel ID"
+        default "ID_HERE"
+    config SE_BEARER_TOKEN
+        string "token"
+        default "TOKEN_HERE"
+endmenu
